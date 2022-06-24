@@ -3,3 +3,16 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay.woff2') format('woff2');
+}
+
+.redhat {
+	font-family: "Red Hat Display";
+}
+
+html {
+	font-family: Arial;
+}
