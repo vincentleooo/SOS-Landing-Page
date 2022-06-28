@@ -19,7 +19,11 @@ const VerticalFeatures = () => (
         journey and connect with the online community!
       </div>
     </Section>
-    <Section title="Our App" description="The key features present in our app.">
+    <Section
+      id="app"
+      title="Our App"
+      description="The key features present in our app."
+    >
       <VerticalFeatureRow
         title="One click voice call"
         description='Seniors simply click a button "SOS" to seek help.'
