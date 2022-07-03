@@ -27,27 +27,29 @@ const VerticalFeatures = () => (
       <VerticalFeatureRow
         title="One click voice call"
         description='Seniors simply click a button "SOS" to seek help.'
-        image="/assets/images/one-click.jpg"
-        imageAlt="Photo by ROMAN ODINTSOV from Pexels: https://www.pexels.com/photo/crop-unrecognizable-tourist-using-wireless-telephone-in-hotel-4551101/"
+        image="/assets/images/one-click.png"
+        imageAlt="One click voice call"
       />
       <VerticalFeatureRow
         title="Language match-making"
         description="Seniors are connected to a helper that speaks the same language and dialect."
         image="/assets/images/language.jpg"
-        imageAlt="Photo by Andrea Piacquadio: https://www.pexels.com/photo/pensive-ethnic-man-listening-to-answer-in-paper-cup-phone-3760607/"
+        imageAlt="Photo by Towfiqu barbhuiya on Unsplash.
+        "
         reverse
       />
       <VerticalFeatureRow
         title="Screen sharing"
         description="Clear communication — Volunteers from SOS community views the seniors' phone and directly guides the seniors."
-        image="/assets/images/screen.jpg"
-        imageAlt="Photo by Mikhail Nilov: https://www.pexels.com/photo/man-people-woman-relaxation-6609104/"
+        image="/assets/images/screen.png"
+        imageAlt="Screen sharing"
       />
       <VerticalFeatureRow
         title="Direct annotation"
         description="Volunteers from SOS community directly annotate on the seniors' screen."
         image="/assets/images/draw.jpg"
-        imageAlt="Photo by Anna Shvets: https://www.pexels.com/photo/person-using-macbook-and-ipad-3986993/"
+        imageAlt="Photo by Kelly Sikkema on Unsplash.
+        "
         reverse
       />
     </Section>
