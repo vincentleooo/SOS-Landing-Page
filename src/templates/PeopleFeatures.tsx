@@ -41,7 +41,7 @@ const PeopleFeatures = () => (
       <PeopleFeaturesIndiv
         name="Reina Peh"
         title="Head of Marketing"
-        image="assets/images/people/female-placeholder.jpeg"
+        image="assets/images/people/reina.jpg"
         imageAlt="Reina Peh"
       />
       <PeopleFeaturesIndiv
@@ -59,7 +59,7 @@ const PeopleFeatures = () => (
       <PeopleFeaturesIndiv
         name="Shu Yi"
         title="Project Management"
-        image="assets/images/people/female-placeholder.jpeg"
+        image="assets/images/people/shuyi.jpg"
         imageAlt="Shu Yi"
       />
     </div>
