@@ -7,7 +7,7 @@ const About = () => {
       <p>Welcome to the About page.</p>
       <p>
         This is a sample Next.js application that displays information about the
-        company or website.
+        company or website. Yeay.
       </p>
     </div>
   );
