@@ -22,6 +22,11 @@ const Hero = () => (
           </Link>
         </li>
         <li>
+          <Link href="/#awards">
+            <a>Awards</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/#people">
             <a>People</a>
           </Link>
@@ -39,11 +44,11 @@ const Hero = () => (
         title={
           <>
             <span className="text-primary-500 redhat">
-              Silver Online Service
+              Silver Online Service 
             </span>
           </>
         }
-        description="Digital independence for seniors."
+        description="Digital independence for seniors since 2021"
         button={
           <Link href="https://t.me/Silvers_sos">
             <a>
