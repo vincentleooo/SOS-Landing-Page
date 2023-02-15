@@ -1,12 +1,11 @@
-
-import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
 import { Awards } from './Awards';
 import { Careers } from './Careers';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { PeopleFeatures } from './PeopleFeatures';
 import { VerticalFeatures } from './VerticalFeatures';
+import { Meta } from '../layout/Meta';
+import { AppConfig } from '../utils/AppConfig';
 
 const Base = () => (
   <div className="antialiased text-gray-700">
@@ -17,7 +16,7 @@ const Base = () => (
     <PeopleFeatures />
     <Careers />
     {/* <Banner /> */}
-    
+
     <Footer />
   </div>
 );
