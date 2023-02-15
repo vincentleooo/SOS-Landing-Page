@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
+import { Logo } from './Logo';
 import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-gray-100">
@@ -19,6 +19,11 @@ const Hero = () => (
         <li>
           <Link href="/#app">
             <a>App</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/#awards">
+            <a>Awards</a>
           </Link>
         </li>
         <li>
@@ -43,7 +48,7 @@ const Hero = () => (
             </span>
           </>
         }
-        description="Digital independence for seniors."
+        description="Digital independence for seniors since 2021"
         button={
           <Link href="https://t.me/Silvers_sos">
             <a>
